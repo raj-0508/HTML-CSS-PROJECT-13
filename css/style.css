@@ -124,7 +124,8 @@ body {
 /* middle section */
 .middle-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   align-items: center;
   padding: 6rem 3rem;
 }
@@ -280,7 +281,7 @@ body {
   }
   
   .hero-image {
-    width: 400px;
+    width: 350px;
   }
 
   .middle-section {
