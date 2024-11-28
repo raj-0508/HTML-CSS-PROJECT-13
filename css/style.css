@@ -190,7 +190,10 @@ body {
 }
     
 .feature-item-image {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   width: 3rem;
   background-color: rgb(212, 111, 80);
   border-radius: 50%;
