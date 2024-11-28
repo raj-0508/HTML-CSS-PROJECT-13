@@ -1,6 +1,6 @@
 # HTML-CSS-PROJECT-13
 
-Project: Responsive Website with flexbox and media queries
+Project: Responsive Website with flexbox and media queries.
 
 In this project, we uses flexbox and media queries to create a responsive website that adapts to different screen sizes and devices.
 
