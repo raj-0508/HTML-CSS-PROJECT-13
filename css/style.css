@@ -166,32 +166,38 @@ body {
 .features-heading {
   text-align: center;
   color: #000000;
+  margin: 0 2rem;
 }
 .features {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  padding: 50px 20px;
+  align-items: center;
+  padding: 5rem 2rem;
 }
   
 .feature-item {
-  flex: 1 1 220px;
-  width: 220px;
+  flex: 1 1 200px;
+  width: 200px;
   text-align: center;
   background: #f9f9f9;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   transition: transform 0.2s;
+  line-height: 1;
 }
     
-.feature-item img {
-  width: 30px;
-  margin-bottom: 15px;
+.feature-item-image {
+
+  width: 3rem;
+  background-color: rgb(212, 111, 80);
+  border-radius: 50%;
 }
   
 .feature-item h3 {
+  margin-top: 2rem;
   margin-bottom: 10px;
   font-size: 1.2rem;
 }
