@@ -1,16 +1,16 @@
 /* Global Styles */
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-  
+    
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #333;
 }
-
+  
 .bg-image {
   background-image: url('../assets/bg.svg');
   background-size: cover;
@@ -20,7 +20,7 @@ body {
   width: 100%;
   position: relative;
 }
-  
+    
 /* Navbar */
 .navbar {
   display: flex;
@@ -30,16 +30,16 @@ body {
   color: #fffcfc;
   gap: 2rem;
 }
-  
+    
 .logo {
   display: flex;
   align-items: center;
 }
-  
+    
 .logo img {
   height: 2.5rem;
 }
-  
+    
 .nav-links {
   display: flex;
   flex: 1;
@@ -48,7 +48,7 @@ body {
   gap: 1.8rem;
   list-style: none;
 }
-  
+    
 .nav-links a {
   text-decoration: none;
   font-weight: 600;
@@ -56,13 +56,13 @@ body {
   color: #ffffff;
   align-self: flex-end;
 }
-
+  
 .nav-menu-icon{
   font-size: 2.5rem;
   cursor: pointer;
   display: none;
 }
-    
+      
 .btn-trial {
   background: #4DA6FF;
   color: #ffffff;
@@ -70,7 +70,7 @@ body {
   text-decoration: none;
   font-weight: 600;
 }
-    
+      
 /* Hero Section */
 .hero {
   display: flex;
@@ -80,23 +80,23 @@ body {
   color: #ffffff;
   flex-wrap: wrap;
 }
-  
+    
 .hero-content {
   flex: 1;
   max-width: 500px;
 }
-  
+    
 .hero-content h1 {
   font-size: 2.8rem;
   margin-bottom: 2rem;
 }
-  
+    
 .hero-content p {
   margin-bottom: 20px;
   font-size: 1.1rem;
   margin-bottom: 2rem;
 }
-  
+    
 .btn-demo {
   background: #4DA6FF;
   color: #ffffff;
@@ -104,23 +104,23 @@ body {
   text-decoration: none;
   font-weight: 600;
 }
-  
+    
 .btn-demo:hover {
   background: black;
   transform: scale(1.05);
 }
-  
+    
 .hero-image {
   flex: 1;
   display: flex;
   justify-content: center;
 }
-  
+    
 .hero-image img {
   max-width: 90%;
   height: auto;
 }
-
+  
 /* middle section */
 .middle-section {
   display: flex;
@@ -129,40 +129,40 @@ body {
   align-items: center;
   padding: 6rem 3rem;
 }
-  
+    
 .midddle-section-image {
   flex: 1;
   display: flex;
   justify-content: center;
 }
-  
+    
 .midddle-section-image img {
   max-width: 90%;
   height: auto;
 }
-  
+    
 .middle-section-content {
   flex: 1;
   max-width: 500px;
 }
-  
+    
 .middle-section-content h1 {
   font-size: 2.2rem;
   margin-bottom: 2rem;
 }
-
+  
 .middle-section-content h3 {
   font-size: 1.2rem;
   margin-bottom: .75rem;
 }
-  
+    
 .middle-section-content p {
   line-height: 1;
   font-size: 1rem;
   margin-bottom: 1.5rem;
   font-weight: 400;
 }
-  
+    
 /* Features Section */
 .features-heading {
   text-align: center;
@@ -177,7 +177,7 @@ body {
   align-items: center;
   padding: 5rem 2rem;
 }
-  
+    
 .feature-item {
   flex: 1 1 200px;
   width: 200px;
@@ -190,6 +190,12 @@ body {
   line-height: 1;
 }
     
+.feature-item:hover {
+  transform: scale(1.05);
+  background-color: #1a1414;
+  color: #ffffff;
+}
+      
 .feature-item-image1 {
   display: flex;
   justify-content: center;
@@ -201,6 +207,7 @@ body {
   background-color: rgb(252, 158, 129);
   border-radius: 50%;
 }
+
 .feature-item-image2 {
   display: flex;
   justify-content: center;
@@ -234,22 +241,22 @@ body {
   background-color: rgb(152, 141, 253);
   border-radius: 50%;
 }
-  
+    
 .feature-item h3 {
   margin-top: 2rem;
   margin-bottom: 10px;
   font-size: 1.1rem;
   font-weight: 600;
 }
-  
+    
 .feature-item p {
   font-size: 0.8rem;
   color: #555;
   font-weight: 550;
 }
-  
+    
 /* Responsive Design */
-  
+    
 /* Mobile Styles (max-width: 768px) */
 @media (max-width: 768px) {
   .nav-menu-icon{
@@ -258,175 +265,173 @@ body {
   .nav-links{
     display: none;
   }
-
+  
   .btn-trial{
     display: none;
   }
-  
+    
   .hero-content h1 {
     font-size: 2rem;
   }
   .hero-content p {
     font-size: .85rem;
   }
-  
+    
   .nav-menu {
     gap: 10px;
     justify-content: center;
   }
-  
+    
   .hero {
     flex-direction: column;
     text-align: center;
   }
-  
+    
   .hero-image {
     width: 350px;
   }
-
+  
   .middle-section {
     flex-direction: column;
     text-align: center;
   }
-  
+    
   .middle-section img {
     width: 400px;
   }
-  
+    
   .features {
     flex-direction: column;
     gap: 15px;
   }
 }
-  
+    
 /* Tablet Styles (768px - 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-content h1 {
     font-size: 2.4rem;
   }
-  
+    
   .hero-content p {
     font-size: 1rem;
     font-weight: 600;
   }
-  
+    
   .hero-image {
     max-width: 500px;
   }
-
+  
   .middle-section h1 {
     font-size: 2.4rem;
   }
-
+  
   .middle-section h3 {
     font-size: 1.2rem;
   }
-  
+    
   .middle-section p {
     font-size: 1rem;
   }
-  
     
+      
   .middle-section img {
     max-width: 500px;
   }
-  
+    
   .features {
     gap: 25px;
   }
-  
+    
   .feature-item {
     flex: 1 1 200px;
     max-width: 200px;
     gap: 20px;
   }
 }
-  
+    
 /* Laptop Styles (1024px - 1440px) */
 @media (min-width: 1024px) and (max-width: 1440px) {
   .hero-content h1 {
     font-size: 3rem;
   }
-  
+    
   .hero-content p {
     font-size: 1.1rem;
   }
-
+  
   .hero-image {
     max-width: 600px;
   }
-
+  
   .middle-section h1 {
     font-size: 3rem;
   }
-
+  
   .middle-section h3 {
     font-size: 1.5rem;
   }
-  
+    
   .middle-section p {
     font-size: 1.1rem;
   }
-  
     
+      
   .middle-section img {
     max-width: 600px;
   }
-  
+    
   .features {
     gap: 30px;
   }
-  
+    
   .feature-item {
     flex: 1 1 200px;
     max-width: 200px;
     gap: 25px;
   }
 }
-  
-/* Large Screen Styles (Above 1440px) */
+/* large screen and above than 1440px   */
 @media (min-width: 1440px) {
   .hero-content h1 {
     font-size: 3.4rem;
   }
-  
+    
   .hero-content p {
     font-size: 1.2rem;
   }
-  
+    
   .hero {
     padding: 80px 50px;
   }
-
+  
   .hero-image {
     max-width: 700px;
   }
-
+  
   .middle-section h1 {
     font-size: 3.4rem;
   }
-
+  
   .middle-section h3 {
     font-size: 2rem;
   }
-  
+    
   .middle-section p {
     font-size: 1.2rem;
   }
-  
     
+      
   .middle-section img {
     max-width: 700px;
   }
-  
+    
   .features {
     gap: 40px;
   }
-  
+    
   .feature-item {
     flex: 1 1 200px;
     max-width: 220px;
     gap: 30px;
   }
 }
-  
