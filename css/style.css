@@ -79,6 +79,8 @@ body {
   padding: 60px 30px;
   color: #ffffff;
   flex-wrap: wrap;
+  max-width : 1600px;
+  margin : 0 auto
 }
     
 .hero-content {
@@ -128,6 +130,8 @@ body {
   align-items: center;
   align-items: center;
   padding: 6rem 3rem;
+  max-width : 1600px;
+  margin : 0 auto
 }
     
 .midddle-section-image {
@@ -137,7 +141,6 @@ body {
 }
     
 .midddle-section-image img {
-  max-width: 90%;
   height: auto;
 }
     
